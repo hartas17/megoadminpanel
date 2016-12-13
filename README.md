@@ -13,9 +13,10 @@ git clone https://github.com/noubyte/megoadminpanel.git
 
 2. Instalar dependencias (asegurate de tener instalado npm).
 
-Dentro de la raiz del proyecto, ejecutar:
+Ejecutar:
 
 ```
+$ cd megoadminpanel
 $ npm install
 ```
 
@@ -31,7 +32,7 @@ $ var port_name = "YOUR_PORT_NAME"
 $ npm start
 ```
 
-5. Visualiza la salida de la aplicacion desde tu navegador web, escribiendo en la caja de texto, la URL:
+5. Visualiza la salida de la aplicacion desde tu navegador web, desde la URL:
 
 ```
 http://localhost:8080
