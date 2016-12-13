@@ -7,22 +7,32 @@ NOTA: Para ejecutar la aplicacion es necesario conocer el puerto serial que se c
 
 1. Clonar repositorio dentro de un directorio de trabajo.
 
-# git clone https://github.com/noubyte/megoadminpanel.git
+```
+git clone https://github.com/noubyte/megoadminpanel.git
+```
 
 2. Instalar dependencias (asegurate de tener instalado npm).
 
-Dentro del raiz del proyecto.
+Dentro de la raiz del proyecto, ejecutar:
 
-# npm install
+```
+$ npm install
+```
 
-3. Configura el archivo index.js, 
+3. Configura el archivo index.js, con el nombre del puerto en el que se encuentra conectado la placa MeGo: 
 
-# var port_name = "YOUR_PORT_NAME"
+```
+$ var port_name = "YOUR_PORT_NAME"
+```
 
 4. Ejecuta la aplicacion.
 
-# npm start
+```
+$ npm start
+```
 
 5. Visualiza la salida de la aplicacion desde tu navegador web, escribiendo en la caja de texto, la URL:
 
+```
 http://localhost:8080
+```
